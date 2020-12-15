@@ -12,7 +12,7 @@ body {
         position: relative;
         width: 1024px;
         height: 768px;
-        
+        overflow: hidden;
 
         .indicate {
             position: absolute;
@@ -1337,6 +1337,7 @@ body {
                                 width: 343px;
                                 display: flex;
                                 flex-direction: column;
+                                margin-top: 12px;
                                 .block-1-1 {
                                     width: 235px;
                                     height: 100px;
@@ -1455,6 +1456,7 @@ body {
                                 width: 345px;
                                 display: flex;
                                 flex-direction: column;
+                                margin-top: 20px;
                                 .block-2-1 {
                                 display: flex;
                                 flex-direction: column;
@@ -1633,19 +1635,300 @@ body {
                                            }
                                     } 
                                 }
-                            
+                            }
                             .content-3 {
                                 width: 336px;
                                 display: flex;
                                 flex-direction: column;
-                                
+                                margin-top: 100px;
+                                .block-3-1 {
+                                    width: 224px;
+                                    height: 44px;
+                                    display: flex;
+                                    .round1 {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        width: 72px;
+                                        height: 72px;
+                                        border-radius: 50%;
+                                        background: #3f437f;
+                                        margin-right: 10px;
+                                        .brain {
+                                            width: 46px;
+                                            height: 42px;   
+                                           }
+                                    } 
+                                    .txt1 {
+                                        text-align: left;
+                                        width: 151px;
+                                        height: 62px;
+                                        color: #fff;
+                                        font-size: 20px;
+                                        span {
+                                            font-size: 30px;
+                                        }
+                                    }
+                                }
+                                .block-3-2 {
+                                    width: 37px;
+                                    height: 34px;
+                                    display: flex;
+                                    margin-top: 20px;
+                                    margin-left: 80px;
+                                    margin-bottom: 5px;
+                                    .top, .bottom {
+                                        width: 6px;
+                                        height: 23px;  
+                                    }
+                                    .bottom {
+                                        margin-left: 5px;
+                                    }
+                                }
+                                .block-3-3 {
+                                    width: 260px;
+                                    height: 322px;
+                                    border-radius: 20%;
+                                    background: linear-gradient(to bottom, rgba(43, 48, 109, 1), rgba(43, 48, 109, 0.2),  rgba(43, 48, 109, 0));
+                                    
+                                    .block-3-3-1 {
+                                        width: 174px;
+                                        height: 26px;
+                                        color: #fff;
+                                        font-size: 16px;
+                                        margin-top: 19px;
+                                        margin-left: 32px;
+                                    }
+                                    .block-3-3-2 {
+                                        display: flex;
+                                        width: 224px;
+                                        height: 74px;
+                                        margin-top: 10px;
+                                        margin-left: 16px;
+                                        .round2 {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 72px;
+                                            height: 72px;
+                                            border-radius: 50%;
+                                            background: #3f437f;
+                                            margin-right: 10px;
+                                            .capa {
+                                                width: 50px;
+                                                height: 47px;   
+                                               }
+                                        } 
+                                        .txt2 {
+                                            text-align: left;
+                                            width: 151px;
+                                            height: 62px;
+                                            color: #fff;
+                                            font-size: 20px;
+                                            span {
+                                                font-size: 30px;
+                                            }
+                                        }
+                                    }
+                                    .block-3-3-3 {
+                                        display: flex;
+                                        width: 166px;
+                                        height: 75px;
+                                        margin-top: 16px;
+                                        margin-left: 16px;
+                                        .round3 {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 72px;
+                                            height: 72px;
+                                            border-radius: 50%;
+                                            background: #3f437f;
+                                            margin-right: 10px;
+                                            .musle {
+                                                width: 55px;
+                                                height: 36px;   
+                                               }
+                                        } 
+                                        .txt3 {
+                                            text-align: left;
+                                            width: 94px;
+                                            height: 65px;
+                                            color: #fff;
+                                            font-size: 20px;
+                                            span {
+                                                font-size: 30px;
+                                            }
+                                        }
+                                    }
+                                    .block-3-3-4 {
+                                        display: flex;
+                                        width: 239px;
+                                        height: 80px;
+                                        margin-left: 16px;
+                                        margin-top: 16px;
+                                        .round4 {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 72px;
+                                            height: 72px;
+                                            border-radius: 50%;
+                                            background: #3f437f;
+                                            margin-right: 10px;
+                                            .lipid2 {
+                                                width: 55px;
+                                                height: 55px;   
+                                               }
+                                        } 
+                                        .txt4 {
+                                            text-align: left;
+                                            width: 166px;
+                                            height: 68px;
+                                            color: #fff;
+                                            font-size: 20px;
+                                            span {
+                                                font-size: 30px;
+                                            }
+                                        }
+                                    }
+                                    
+                                }
                             }                            
+                        .arr-block {
+                            display: flex;
+                            flex-direction: column;
+                            margin-left: -750px;
+                            .arrows1 {
+                                width: 450px;
+                                height: 223px;
+                                display: flex;
+                                .arrBox1 {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    width: 220px;
+                                    height: 247px;
+                                    .arBox1 {
+                                        transform: rotate(-10deg);
+                                        margin-top: 180px;
+                                        margin-left: 37px;
+                                        .arr1 {
+                                        width: 118px;
+                                        height: 18px;
+                                        }
+                                        .arr2 {
+                                        width: 118px;
+                                        height: 18px;
+                                        margin-top: -10px;
+                                        }
+                                    }
+                                    .arBox2 {
+                                        transform: rotate(55deg);
+                                        margin-top: -40px;
+                                        margin-left: -20px;
+                                        .arr3 {
+                                        width: 10px;
+                                        height: 156px;
+                                        }
+                                        .arr4 {
+                                        width: 10px;
+                                        height: 156px;
+                                        transform: rotate(180deg);
+                                        }
+                                    }
+                                    
+                                    .arr5 {
+                                        width: 20px;
+                                        height: 235px;
+                                        margin-top: -150px;
+                                        margin-left: -50px;
+                                        transform: rotate(-131deg);
+                                    }
+                                    
+                                }
+                                .arrBox2 {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    width: 46px;
+                                    height: 231px;
+                                    margin-left: -35px;
+                                    margin-top: 157px;
+                                    img {
+                                        width: 6px;
+                                        height: 217px;
+                                        margin-left: 16px;
+                                    }
+                                }
+                                .arrBox3 {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: space-evenly;
+                                    width: 192px;
+                                    height: 200px;
+                                    .box1 {
+                                        display: flex;
+                                        flex-direction: column;
+                                        transform: rotate(25deg);
+                                        margin-top: 139px;
+                                        .arr1 {
+                                        width: 118px;
+                                        height: 18px;
+                                        margin-top: -10px;
+                                        }
+                                        .arr2 {
+                                        width: 118px;
+                                        height: 18px;
+                                        }
+                                    }
+                                    .box2 {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin-top: -35px;
+                                        margin-left: -5px;
+                                        transform: rotate(-55deg);
+                                        .arr3 {
+                                        width: 10px;
+                                        height: 156px;
+                                        transform: rotate(180deg);
+                                        }
+                                        .arr4 {
+                                        width: 10px;
+                                        height: 156px;
+                                        }
+                                    }
+                                }
+                            }
+                            .arrows2 {
+                                width: 180px;
+                                height: 103px;
+                                display: flex;
+                                flex-direction: column;
+                                margin-top: 112px;
+                                margin-left: 37px;
+                                .a1 {
+                                    width: 88px;
+                                    height: 44px;
+                                    margin-top: -10px;
+                                    margin-left: -5px;
+                                }
+                                .a2 {
+                                    width: 71px;
+                                    height: 6px;
+                                    margin-top: 8px;
+                                    margin-left: 10px;
+                                }
+                            }
                         }
-                        .space {
-                            height: 122px;
-                        }
+                        
                     }
-
+                    .space {
+                        height: 122px;
+                    }
                 }
 
             }
